@@ -19,7 +19,8 @@ const rename = require('gulp-rename');
 // jsの圧縮
 const uglify = require('gulp-uglify');
 
-const { src, dest, watch } = require('gulp');
+// htmlの圧縮
+const htmlmin = require('gulp-htmlmin');
 
 // 画像の圧縮
 const imagemin = require('gulp-imagemin');
@@ -29,6 +30,7 @@ const imageminPng = require('imagemin-pngquant');
 const imageminGif = require('imagemin-gifsicle');
 const imageminSvgo = require('imagemin-svgo');
 
+const { src, dest, watch } = require('gulp');
 
 // sassコンパイル
 const cssTask = () => {
@@ -65,9 +67,17 @@ const imgTask = () => {
         .pipe(dest('dist/imagesMin'))
 }
 
+//htmlのコンパイル
+const htmlTask = () => {
+    return src('./src/html/**')
+        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(dest('dist/html'))
+}
+
 const keiryoWatch = () => {
     watch('./src/sass/*.scss', cssTask)
     watch('./src/js/*.js', jsTask)
     watch('./src/images/**', imgTask)
+    watch('./src/html/**', htmlTask)
 }
 exports.keiryoWatch = keiryoWatch;
