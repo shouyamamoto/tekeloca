@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 const { src, dest, watch } = require('gulp');
 
 const task = () => {
-    return src('src/sass/**/*.scss', {sourcemaps: true})
+    return src('./src/sass/*.scss', {sourcemaps: true})
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(dest('dist/css/', {sourcemaps: true}))
 }
