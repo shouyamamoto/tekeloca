@@ -1,0 +1,30 @@
+.fv {
+    &-container {
+        position: relative;
+    }
+
+    &-bgImg {
+        height: 423px;
+        width: 100%;
+        background-image: url("../images/fv.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+
+    &-text {
+        position: absolute;
+        bottom: 10px;
+        left: 5%;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 24px;
+    }
+
+    &-caption {
+        width: 90%;
+        color: $cBlack;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
