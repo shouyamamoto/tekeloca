@@ -30,3 +30,24 @@
         }
     }
 }
+
+@mixin liner($color) {
+    display: inline-block;
+    width: calc(100% / 2 - 80px);
+    height: 14px;
+    background-image: linear-gradient(
+        120deg,
+        white 15%,$color 15%,
+        $color 20%, white 20%,
+        white 30%,$color 30%,
+        $color 35%, white 35%,
+        white 45%,$color 45%,
+        $color 50%, white 50%,
+        white 60%,$color 60%,
+        $color 65%, white 65%,
+        white 75%,$color 75%,
+        $color 80%, white 80%,
+        white 90%,$color 90%,
+        $color 95%, white 95%,
+    );
+}

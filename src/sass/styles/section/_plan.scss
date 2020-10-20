@@ -8,7 +8,14 @@
         @include section-title;
         margin-top: 40px;
     }
+    
+    li {
+        margin-bottom: 24px;
 
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 
     &-item {
         position: relative;
