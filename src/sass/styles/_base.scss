@@ -1,0 +1,21 @@
+@import "./settings/variables";
+@import "./settings/mixin";
+
+
+
+body {
+    font-family:  "hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.05;
+    max-width: 1440px;
+    color: $cBlack;
+}
+
+.sp-none {
+    display: none;
+}
+
+@import "./section/firstView";
+@import "./section/plan";
+@import "./section/planDetail";

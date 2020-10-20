@@ -1,0 +1,135 @@
+.planDetail {
+    margin-top: 120px;
+
+    &-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &-num-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 40px;
+
+        span.line {
+            display: inline-block;
+            width: calc(100% / 2 - 80px);
+            height: 14px;
+            background-image: linear-gradient(
+                120deg, 
+                white 3%,$cBlue 3%,
+                $cBlue 6%, white 6%,
+                white 15%,$cBlue 15%,
+                $cBlue 20%, white 20%,
+                white 25%,$cBlue 25%,
+                $cBlue 30%, white 30%,
+                white 35%,$cBlue 35%,
+                $cBlue 40%, white 40%,
+                white 45%,$cBlue 45%,
+                $cBlue 50%, white 50%,
+                white 55%,$cBlue 55%,
+                $cBlue 60%, white 60%,
+                white 65%,$cBlue 65%,
+                $cBlue 70%, white 70%,
+                white 75%,$cBlue 75%,
+                $cBlue 80%, white 80%,
+                white 85%,$cBlue 85%,
+                $cBlue 90%, white 90%,
+                white 95%,$cBlue 95%,
+                $cBlue 100%, white 100%,
+                );
+        }
+    }
+
+    &-num {
+        font-size: 20px;
+        text-align: center;
+
+        span {
+            font-size: 40px;
+            color: $cBlue;
+            margin-left: 8px;
+        }
+
+        &::before {
+            content: "";
+            width: 112px;
+            height: 14px;
+            display: inline;
+            background-color: #fff;
+            background-image: linear-gradient(-30deg, transparent 50%, $cBlue 50%);
+        }
+    }
+
+    &-title {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $cBlack;
+
+        &__sub {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        &__main {
+            font-size: 20px;
+            font-weight: bold;
+
+            span {
+                font-size: 32px;
+                color: $cBlue;
+            }
+        }
+    }
+
+    &-text {
+        font-size: 14px;
+        color: $cBlack;
+        margin: 40px 0;
+    }
+
+    &-photo-small {
+        display: flex;
+        overflow: scroll;
+        justify-content: space-between;
+
+        .imgSmall {
+            width: 180px;
+            max-width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+    }
+
+    .imgBig {
+        width: 100%;
+        max-width: 370px;
+        height: 370px;
+        object-fit: cover;
+    }
+
+    &-step {
+        display: flex;
+        overflow-x: scroll;
+
+        .imgStep {
+            height: 356px;
+            width: auto;
+        }
+    }
+
+    .scroll {
+        font-size: 14px;
+        color: $cBlack;
+        text-align: right;
+
+        &::after {
+            content: "→";
+            color: $cBlack;
+            margin-left: 8px;
+        }
+    }
+}

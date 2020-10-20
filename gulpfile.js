@@ -32,6 +32,7 @@ const imageminSvgo = require('imagemin-svgo');
 
 const { src, dest, watch } = require('gulp');
 
+
 // sassコンパイル
 const cssTask = () => {
     return src('./src/sass/*.scss', {sourcemaps: true})
@@ -64,7 +65,7 @@ const imgTask = () => {
             }),
             imagemin.svgo()
         ]))
-        .pipe(dest('dist/imagesMin'))
+        .pipe(dest('dist/images'))
 }
 
 //htmlのコンパイル
