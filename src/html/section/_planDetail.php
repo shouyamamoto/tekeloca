@@ -33,5 +33,15 @@
             <img src="../images/step.jpg" class="imgStep" alt="撮影前に打ち合わせをしてから、2箇所の撮影スポットで撮影します。データは1週間以内に送らせて頂きます。">
         </div>
         <p class="scroll">横にスクロールしてください</p>
+
+        <div class="btn-container">
+            <button class="btn btn-bgc_blue">
+                <a href="#" class="arrow-u">撮影料金を見る</a>
+            </button>
+
+            <button class="btn btn-bgc_yellow">
+                <a href="#" class="arrow-u">申込フォームへ</a>
+            </button>
+        </div>
     </div>
 </section>
