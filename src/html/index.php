@@ -16,6 +16,10 @@
             <?php require "./section/_plan.php"?>
 
             <?php require "./section/_planDetail.php" ?>
+
+            <?php require "./section/_selfIntro.php" ?>
+
+            <?php require "./section/_price.php" ?>
         </main>
     
 

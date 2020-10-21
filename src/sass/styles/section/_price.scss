@@ -1,0 +1,97 @@
+.price {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    &-container {
+
+        .section-title {
+            @include section-title;
+            margin-top: 40px;
+        }
+
+        &__detail {
+            &-label {
+                position: relative;
+            }
+
+            &-label.blue {
+                @include label($cBlue);
+            }
+            &-label.pink {
+                @include label($cPink);
+            }
+            &-label.green {
+                @include label($cGreen);
+            }
+
+            &-label span::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 10%;
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                border-left: 1px solid white;
+                transform: translate(50%, -50%);
+                transition: all 0.3s;
+            }
+
+            &-label span::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 10%;
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                border-bottom: 1px solid white;
+                transform: translateY(-100%);
+            }
+
+            &-inner {
+                padding: 40px 20px 0 20px;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+
+                p {
+                    margin-bottom: 16px;
+                }
+
+                span {
+                    font-weight: bold;
+                    margin-left: 16px;
+                }
+
+                .notes {
+                    font-size: 12px;
+                    margin-left: 0;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        // ホバーすると開閉する
+        // のちにクリックで開閉に変更
+        &__detail:hover {
+            cursor: pointer;
+
+            span::before {
+                content: "";
+                opacity: 0;
+                transform: rotate(90deg);
+                transition: all 0.3s;
+            }
+
+            .price-container__detail-inner {
+                height: auto;
+                opacity: 1;
+                overflow: visible;
+                margin-bottom: 40px;
+                transition: all .3s;
+            }
+        }
+    }
+}

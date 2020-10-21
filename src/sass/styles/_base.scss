@@ -2,7 +2,6 @@
 @import "./settings/mixin";
 
 
-
 body {
     font-family:  "hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
     font-size: 16px;
@@ -12,6 +11,7 @@ body {
     color: $cBlack;
 }
 
+
 .sp-none {
     display: none;
 }
@@ -19,3 +19,6 @@ body {
 @import "./section/firstView";
 @import "./section/plan";
 @import "./section/planDetail";
+@import "./section/selfIntro";
+@import "./section/price";
+
