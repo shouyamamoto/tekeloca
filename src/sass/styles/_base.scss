@@ -16,6 +16,7 @@ body {
     display: none;
 }
 
+@import "./common/header";
 @import "./section/firstView";
 @import "./section/plan";
 @import "./section/planDetail";

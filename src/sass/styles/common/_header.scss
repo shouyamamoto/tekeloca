@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.3);
+    z-index: 9999;
+
+    .sp-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+
+        .menu-container {
+            margin-left: 5%;
+
+            & span {
+                display: block;
+                width: 32px;
+                height: 1px;
+                background-color: black;
+                margin-bottom: 8px;
+            }
+        }
+
+        .cv-btn {
+            background-color: $cYellow;
+
+            button {
+                a {
+                    display: block;
+                    padding: 20px 23px;
+                    font-size: 12px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

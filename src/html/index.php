@@ -24,5 +24,7 @@
             <?php require_once "./section/_form.php" ?>
         </main>
     <?php require_once "./common/_footer.php" ?>
+
+    <script src="../js/main.min.js"></script>
 </body>
 </html>
