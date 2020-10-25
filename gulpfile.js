@@ -17,7 +17,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
 
 // jsの圧縮
-const uglify = require('gulp-uglify');
+const babel = require('gulp-babel');
 
 // htmlの圧縮
 const htmlmin = require('gulp-htmlmin');
@@ -46,7 +46,9 @@ const cssTask = () => {
 // jsコンパイル
 const jsTask = () => {
     return src('./src/js/*.js', {sourcemaps: true})
-        .pipe(uglify())
+        .pipe(babel({
+            presets: ['@babel/preset-env']
+        }))
         .pipe(rename({extname: '.min.js'}))
         .pipe(dest('dist/js/', {sourcemaps: true}))
 }
