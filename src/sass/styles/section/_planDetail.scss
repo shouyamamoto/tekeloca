@@ -113,6 +113,7 @@
     &-step {
         display: flex;
         overflow-x: scroll;
+        max-width: 100%;
 
         .imgStep {
             height: 356px;

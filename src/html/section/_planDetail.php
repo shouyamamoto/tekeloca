@@ -18,13 +18,13 @@
         </p>
 
         <div class="planDetail-photo">
-            <img src="../images/icon_01.jpg" alt="" class="imgBig">
+            <img src="../images/icon_01.jpg" class="imgBig js-icon-img">
 
             <ul class="planDetail-photo-small">
-                <li><img src="../images/icon_01.jpg" alt="" class="imgSmall"></li>
-                <li><img src="../images/icon_02.jpg" alt="" class="imgSmall"></li>
-                <li><img src="../images/icon_03.jpg" alt="" class="imgSmall"></li>
-                <li><img src="../images/icon_04.jpg" alt="" class="imgSmall"></li>
+                <li><img src="../images/icon_01.jpg" class="imgSmall icon-img" data-image="../images/icon_01.jpg"></li>
+                <li><img src="../images/icon_02.jpg" class="imgSmall icon-img" data-image="../images/icon_02.jpg"></li>
+                <li><img src="../images/icon_03.jpg" class="imgSmall icon-img" data-image="../images/icon_03.jpg"></li>
+                <li><img src="../images/icon_04.jpg" class="imgSmall icon-img" data-image="../images/icon_04.jpg"></li>
             </ul>
         
         </div>
@@ -64,13 +64,13 @@
             </p>
 
             <div class="planDetail-photo">
-                <img src="../images/couple_01.jpg" alt="" class="imgBig">
+                <img src="../images/couple_01.jpg" class="imgBig js-couple-img">
 
                 <ul class="planDetail-photo-small">
-                    <li><img src="../images/couple_01.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/couple_02.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/couple_03.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/couple_04.jpg" alt="" class="imgSmall"></li>
+                    <li><img src="../images/couple_01.jpg" class="imgSmall couple-img" data-image="../images/couple_01.jpg"></li>
+                    <li><img src="../images/couple_02.jpg" class="imgSmall couple-img" data-image="../images/couple_02.jpg"></li>
+                    <li><img src="../images/couple_03.jpg" class="imgSmall couple-img" data-image="../images/couple_03.jpg"></li>
+                    <li><img src="../images/couple_04.jpg" class="imgSmall couple-img" data-image="../images/couple_04.jpg"></li>
                 </ul>
             
             </div>
@@ -111,13 +111,13 @@
             </p>
 
             <div class="planDetail-photo">
-                <img src="../images/wedding_01.jpg" alt="" class="imgBig">
+                <img src="../images/wedding_01.jpg" class="imgBig js-wedding-img">
 
                 <ul class="planDetail-photo-small">
-                    <li><img src="../images/wedding_01.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/wedding_02.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/wedding_03.jpg" alt="" class="imgSmall"></li>
-                    <li><img src="../images/wedding_04.jpg" alt="" class="imgSmall"></li>
+                    <li><img src="../images/wedding_01.jpg" class="imgSmall wedding-img" data-image="../images/wedding_01.jpg"></li>
+                    <li><img src="../images/wedding_02.jpg" class="imgSmall wedding-img" data-image="../images/wedding_02.jpg"></li>
+                    <li><img src="../images/wedding_03.jpg" class="imgSmall wedding-img" data-image="../images/wedding_03.jpg"></li>
+                    <li><img src="../images/wedding_04.jpg" class="imgSmall wedding-img" data-image="../images/wedding_04.jpg"></li>
                 </ul>
             
             </div>

@@ -28,7 +28,8 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-jpeg-recompress": "^7.0.0",
-    "imagemin-pngquant": "^9.0.1"
+    "imagemin-pngquant": "^9.0.1",
+    "moveto": "^1.8.2"
   },
   "dependencies": {}
 }

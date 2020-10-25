@@ -25,6 +25,7 @@
         </main>
     <?php require_once "./common/_footer.php" ?>
 
-    <script src="../js/main.min.js"></script>
+    <script src="../js/thumbChange.min.js"></script>
+    <script src="../js/smooth.min.js"></script>
 </body>
 </html>
