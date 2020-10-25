@@ -1,4 +1,4 @@
-<section class="price">
+<section class="price" id="price">
     <div class="price-container">
         <h2 class="section-title">撮影料金一覧</h2>
 

@@ -36,11 +36,11 @@
 
         <div class="btn-container">
             <button class="btn btn-bgc__blue">
-                <a href="#" class="arrow-u">撮影料金を見る</a>
+                <a href="#price" class="arrow-u">撮影料金を見る</a>
             </button>
 
             <button class="btn btn-bgc__yellow">
-                <a href="#" class="arrow-u">申込フォームへ</a>
+                <a href="#form" class="arrow-u">申込フォームへ</a>
             </button>
         </div>
     </div>
@@ -82,11 +82,11 @@
 
             <div class="btn-container">
                 <button class="btn btn-bgc__pink">
-                    <a href="#" class="arrow-u">撮影料金を見る</a>
+                    <a href="#price" class="arrow-u">撮影料金を見る</a>
                 </button>
 
                 <button class="btn btn-bgc__yellow">
-                    <a href="#" class="arrow-u">申込フォームへ</a>
+                    <a href="#form" class="arrow-u">申込フォームへ</a>
                 </button>
             </div>
         </div>
@@ -124,11 +124,11 @@
 
             <div class="btn-container">
                 <button class="btn btn-bgc__green">
-                    <a href="#" class="arrow-u">撮影料金を見る</a>
+                    <a href="#price" class="arrow-u">撮影料金を見る</a>
                 </button>
 
                 <button class="btn btn-bgc__yellow">
-                    <a href="#" class="arrow-u">申込フォームへ</a>
+                    <a href="#form" class="arrow-u">申込フォームへ</a>
                 </button>
             </div>
         </div>
