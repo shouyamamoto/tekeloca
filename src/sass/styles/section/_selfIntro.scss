@@ -20,41 +20,41 @@
             align-items: center;
             width: 80%;
             margin: 0 auto;
+        }
+        
+        &__top .mePic {
+            width: 88px;
+            height: 88px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
 
-            .mePic {
-                width: 88px;
-                height: 88px;
-                object-fit: cover;
-                border-radius: 50%;
-            }
+        &__top .name {
+            font-weight: bold;
+        }
 
-            .name {
-                font-weight: bold;
-            }
+        &__top .insta-icon {
+            width: 27px;
+            height: 27px;
+            margin-left: 16px;
+        }
 
-            .insta-icon {
-                width: 27px;
-                height: 27px;
-                margin-left: 16px;
+        &__top .insta-icon:hover {
+            cursor: pointer;
+        }
 
-                &:hover {
-                    cursor: pointer;
-                }
-            }
-
-            .place {
-                font-size: 14px;
-            }
-        }   
+        &__top .place {
+            font-size: 14px;
+        }
 
         &__bottom {
             width: 300px;
             margin: 0 auto;
             margin-top: 24px;
+        }
 
-            &-text {
-                font-size: 12px;
-            }
+        &__bottom-text {
+            font-size: 12px;
         }
     }
 }

@@ -24,15 +24,13 @@
 
         .cv-btn {
             background-color: $cYellow;
+        }
 
-            button {
-                a {
-                    display: block;
-                    padding: 20px 23px;
-                    font-size: 12px;
-                    color: white;
-                }
-            }
+        .cv-btn button a {
+            display: block;
+            padding: 20px 23px;
+            font-size: 12px;
+            color: white;
         }
     }
 }

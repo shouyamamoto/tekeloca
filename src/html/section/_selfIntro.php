@@ -4,10 +4,10 @@
 
         <div class="selfIntro-inner">
             <div class="selfIntro-inner__top">
-                <img src="../images/me.jpg" class="mePic">
+                <img src="/tekeloca/dist/images/me.jpg" class="mePic">
 
                 <div class="selfIntro-inner__topRight">
-                    <p class="name">山本 翔<span><a href="https://www.instagram.com/ymsy_1113" target="_blank"><img class="insta-icon" src="../images/instagram-brands.svg"></a></span></p>
+                    <p class="name">山本 翔<span><a href="https://www.instagram.com/ymsy_1113" target="_blank"><img class="insta-icon" src="/tekeloca/dist/images/instagram-brands.svg"></a></span></p>
                     <p class="place">兵庫県出身 大阪在住</p>
                 </div>
                 

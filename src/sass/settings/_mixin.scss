@@ -19,19 +19,17 @@
         padding: 15px 0;
     }
 
-    .arrow-u {
-        &:after {
-            content: "";
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            border: 0;
-            border-right: 2px solid white;
-            border-bottom: 2px solid white;
-            transform: translateY(-50%) rotate(45deg);
-            margin-left: 20px;
-            margin-top: -10px;
-        }
+    .arrow-u:after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 0;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+        transform: translateY(-50%) rotate(45deg);
+        margin-left: 20px;
+        margin-top: -10px;
     }
 }
 
@@ -61,4 +59,9 @@
     padding: 15px 20px;
     color: white;
     background-color: $color;
+}
+
+@mixin formPlanBtn {
+    background-color: $cBlack;
+    transition: all 0.3s;
 }

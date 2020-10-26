@@ -16,21 +16,21 @@
         季節の花や風景と撮ると、よりいっそう他の人との差別化ができます！<br>
         素敵なあなたを残してみませんか？
         </p>
-
+        
         <div class="planDetail-photo">
-            <img src="../images/icon_01.jpg" class="imgBig js-icon-img">
+            <img src="/tekeloca/dist/images/icon_01.jpg" class="imgBig js-icon-img">
 
             <ul class="planDetail-photo-small">
-                <li><img src="../images/icon_01.jpg" class="imgSmall icon-img" data-image="../images/icon_01.jpg"></li>
-                <li><img src="../images/icon_02.jpg" class="imgSmall icon-img" data-image="../images/icon_02.jpg"></li>
-                <li><img src="../images/icon_03.jpg" class="imgSmall icon-img" data-image="../images/icon_03.jpg"></li>
-                <li><img src="../images/icon_04.jpg" class="imgSmall icon-img" data-image="../images/icon_04.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_01.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_01.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_02.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_02.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_03.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_03.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_04.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_04.jpg"></li>
             </ul>
         
         </div>
 
         <div class="planDetail-step">
-            <img src="../images/step.jpg" class="imgStep" alt="撮影前に打ち合わせをしてから、2箇所の撮影スポットで撮影します。データは1週間以内に送らせて頂きます。">
+            <img src="/tekeloca/dist/images/step.jpg" class="imgStep" alt="撮影前に打ち合わせをしてから、2箇所の撮影スポットで撮影します。データは1週間以内に送らせて頂きます。">
         </div>
         <p class="scroll">横にスクロールしてください</p>
 
@@ -64,19 +64,19 @@
             </p>
 
             <div class="planDetail-photo">
-                <img src="../images/couple_01.jpg" class="imgBig js-couple-img">
+                <img src="/tekeloca/dist/images/couple_01.jpg" class="imgBig js-couple-img">
 
                 <ul class="planDetail-photo-small">
-                    <li><img src="../images/couple_01.jpg" class="imgSmall couple-img" data-image="../images/couple_01.jpg"></li>
-                    <li><img src="../images/couple_02.jpg" class="imgSmall couple-img" data-image="../images/couple_02.jpg"></li>
-                    <li><img src="../images/couple_03.jpg" class="imgSmall couple-img" data-image="../images/couple_03.jpg"></li>
-                    <li><img src="../images/couple_04.jpg" class="imgSmall couple-img" data-image="../images/couple_04.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/couple_01.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_01.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/couple_02.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_02.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/couple_03.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_03.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/couple_04.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_04.jpg"></li>
                 </ul>
             
             </div>
 
             <div class="planDetail-step">
-                <img src="../images/step.jpg" class="imgStep" alt="撮影前に打ち合わせをしてから、2箇所の撮影スポットで撮影します。データは1週間以内に送らせて頂きます。">
+                <img src="/tekeloca/dist/images/step.jpg" class="imgStep" alt="撮影前に打ち合わせをしてから、2箇所の撮影スポットで撮影します。データは1週間以内に送らせて頂きます。">
             </div>
             <p class="scroll">横にスクロールしてください</p>
 
@@ -111,13 +111,13 @@
             </p>
 
             <div class="planDetail-photo">
-                <img src="../images/wedding_01.jpg" class="imgBig js-wedding-img">
+                <img src="/tekeloca/dist/images/wedding_01.jpg" class="imgBig js-wedding-img">
 
                 <ul class="planDetail-photo-small">
-                    <li><img src="../images/wedding_01.jpg" class="imgSmall wedding-img" data-image="../images/wedding_01.jpg"></li>
-                    <li><img src="../images/wedding_02.jpg" class="imgSmall wedding-img" data-image="../images/wedding_02.jpg"></li>
-                    <li><img src="../images/wedding_03.jpg" class="imgSmall wedding-img" data-image="../images/wedding_03.jpg"></li>
-                    <li><img src="../images/wedding_04.jpg" class="imgSmall wedding-img" data-image="../images/wedding_04.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/wedding_01.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_01.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/wedding_02.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_02.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/wedding_03.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_03.jpg"></li>
+                    <li><img src="/tekeloca/dist/images/wedding_04.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_04.jpg"></li>
                 </ul>
             
             </div>

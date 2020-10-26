@@ -1,7 +1,6 @@
 .form {
     width: 90%;
-    margin: 0 auto;
-    margin-top: 120px;
+    margin: 120px auto 0;
 
     &-container {
         .section-title {
@@ -18,7 +17,7 @@
             margin-bottom: 16px;
         }
 
-        & > label span.need {
+        .need {
             background-color: $cYellow;
             padding: 4px 12px;
             color: white;
@@ -26,7 +25,7 @@
             margin-right: 16px;
         }
 
-        & > label span.any {
+        .any {
             background-color: $cGray;
             padding: 4px 12px;
             font-size: 12px;
@@ -98,29 +97,24 @@
 
         // 各ボタンの背景色　ホバー時に背景色を表示
         &:nth-child(1) {
-            background-color: $cBlack;
-            transition: all 0.3s;
-            &:hover {
-                background-color: $cBlue;
-            }
+            @include formPlanBtn;
+        }
+        &:nth-child(1):hover {
+            background-color: $cBlue;
         }
         
         &:nth-child(2) {
-            background-color: $cBlack;
-            transition: all 0.3s;
-
-            &:hover {
-                background-color: $cPink;
-            }
+            @include formPlanBtn;
+        }
+        &:nth-child(2):hover {
+            background-color: $cPink;
         }
 
         &:nth-child(3) {
-            background-color: $cBlack;
-            transition: all 0.3s;
-
-            &:hover {
-                background-color: $cGreen;
-            }
+            @include formPlanBtn;
+        }
+        &:nth-child(3):hover {
+            background-color: $cGreen;
         }
     }
 
@@ -138,23 +132,23 @@
             text-align: center;
             padding: 20px 100px;
         }
+    }
 
-        &::after {
-            position: absolute;
-            top: 50%;
-            right: 15%;
-            content:"";
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            border-top: 1px solid white;
-            border-right: 1px solid white;
-            transform: translateY(-50%) rotate(45deg);
-        }
+    button::after {
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        content:"";
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        transform: translateY(-50%) rotate(45deg);
+    }
 
-        &:hover {
-            cursor: pointer;
-            opacity: 0.8;
-        }
+    button:hover {
+        cursor: pointer;
+        opacity: 0.8;
     }
 }

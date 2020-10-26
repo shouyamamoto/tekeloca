@@ -6,7 +6,6 @@
         margin: 0 auto;
     }
 
-    
     .plan02,
     .plan03 {
         margin-top: 120px;
@@ -17,38 +16,38 @@
         justify-content: space-between;
         align-items: center;
         line-height: 40px;
+    }
 
+    &-num-container span.line__blue {
+        @include liner($cBlue);
+    }
 
-        span.line {
-            &__blue {
-                @include liner($cBlue);
-            }
-            &__pink {
-                @include liner($cPink);
-            }
-            &__green {
-                @include liner($cGreen);
-            }
-        }
+    &-num-container span.line__pink {
+        @include liner($cPink);
+    }
+
+    &-num-container span.line__green {
+        @include liner($cGreen);
     }
 
     &-num {
         font-size: 20px;
         text-align: center;
 
-        span {
+        span.blue {
             font-size: 40px;
             margin-left: 8px;
-
-            &.blue {
-                color: $cBlue;
-            }
-            &.pink {
-                color: $cPink;
-            }
-            &.green {
-                color: $cGreen;
-            }
+            color: $cBlue;
+        }
+        span.pink {
+            font-size: 40px;
+            margin-left: 8px;
+            color: $cPink;
+        }
+        span.green {
+            font-size: 40px;
+            margin-left: 8px;
+            color: $cGreen;
         }
     }
 
@@ -67,19 +66,19 @@
         &__main {
             font-size: 20px;
             font-weight: bold;
+        }
 
-            span {
-                font-size: 32px;
-                &.blue {
-                    color: $cBlue;
-                }
-                &.pink {
-                    color: $cPink;
-                }
-                &.green {
-                    color: $cGreen;
-                }
-            }
+        &__main span {
+            font-size: 32px;
+        }
+        &__main span.blue {
+            color: $cBlue;
+        }
+        &__main span.pink {
+            color: $cPink;
+        }
+        &__main span.green {
+            color: $cGreen;
         }
     }
 
@@ -140,20 +139,19 @@
         margin: 0 auto;
         margin-top: 56px;
 
-        .btn-bgc {
-            &__blue {
-                @include btn-style($cBlue);
-            }
-            &__pink {
-                @include btn-style($cPink);
-            }
-            &__green {
-                @include btn-style($cGreen);
-            }
-            &__yellow {
-                @include btn-style($cYellow);
-                margin-top: 24px;
-            }
+        .btn-bgc__blue {
+            @include btn-style($cBlue);
+        }
+
+        .btn-bgc__pink {
+            @include btn-style($cPink);
+        }
+        .btn-bgc__green {
+            @include btn-style($cGreen);
+        }
+        .btn-bgc__yellow {
+            @include btn-style($cYellow);
+            margin-top: 24px;
         }
     }
 }
