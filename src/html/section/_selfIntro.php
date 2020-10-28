@@ -1,4 +1,4 @@
-<section class="selfIntro">
+<section class="selfIntro" id="selfIntro">
     <div class="selfIntro-container">
         <h2 class="section-title">撮影者紹介</h2>
 

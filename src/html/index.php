@@ -28,5 +28,6 @@
     <script src="/tekeloca/dist/js/thumbChange.min.js"></script>
     <script src="/tekeloca/dist/js/smooth.min.js"></script>
     <script src="/tekeloca/dist/js/drawer.min.js"></script>
+    <script src="/tekeloca/dist/js/menu.min.js"></script>
 </body>
 </html>
