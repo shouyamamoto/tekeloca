@@ -1,0 +1,157 @@
+.planDetail {
+    margin-top: 120px;
+
+    &-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .plan02,
+    .plan03 {
+        margin-top: 120px;
+    }
+
+    &-num-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 40px;
+    }
+
+    &-num-container span.line__blue {
+        @include liner($cBlue);
+    }
+
+    &-num-container span.line__pink {
+        @include liner($cPink);
+    }
+
+    &-num-container span.line__green {
+        @include liner($cGreen);
+    }
+
+    &-num {
+        font-size: 20px;
+        text-align: center;
+
+        span.blue {
+            font-size: 40px;
+            margin-left: 8px;
+            color: $cBlue;
+        }
+        span.pink {
+            font-size: 40px;
+            margin-left: 8px;
+            color: $cPink;
+        }
+        span.green {
+            font-size: 40px;
+            margin-left: 8px;
+            color: $cGreen;
+        }
+    }
+
+    &-title {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        color: $cBlack;
+
+        &__sub {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        &__main {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        &__main span {
+            font-size: 32px;
+        }
+        &__main span.blue {
+            color: $cBlue;
+        }
+        &__main span.pink {
+            color: $cPink;
+        }
+        &__main span.green {
+            color: $cGreen;
+        }
+    }
+
+    &-text {
+        font-size: 14px;
+        color: $cBlack;
+        margin: 40px 0;
+    }
+
+    &-photo-small {
+        display: flex;
+        overflow: scroll;
+        justify-content: space-between;
+
+        .imgSmall {
+            width: 180px;
+            max-width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+    }
+
+    .imgBig {
+        width: 100%;
+        max-width: 370px;
+        height: 370px;
+        object-fit: cover;
+    }
+
+    &-step {
+        display: flex;
+        overflow-x: scroll;
+        max-width: 100%;
+
+        .imgStep {
+            height: 356px;
+            width: auto;
+        }
+    }
+
+    .scroll {
+        font-size: 14px;
+        color: $cBlack;
+        text-align: right;
+
+        &::after {
+            content: "→";
+            color: $cBlack;
+            margin-left: 8px;
+        }
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 56px;
+
+        .btn-bgc__blue {
+            @include btn-style($cBlue);
+        }
+
+        .btn-bgc__pink {
+            @include btn-style($cPink);
+        }
+        .btn-bgc__green {
+            @include btn-style($cGreen);
+        }
+        .btn-bgc__yellow {
+            @include btn-style($cYellow);
+            margin-top: 24px;
+        }
+    }
+}

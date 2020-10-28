@@ -1,0 +1,38 @@
+.footer {
+    width: 90%;
+    margin: 120px auto 40px;
+    padding-top: 40px;
+    border-top: 1px solid $cGray;
+
+    &-title {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .notes {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+
+        &-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        P:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .copy {
+        text-align: center;
+        font-size: 10px;
+    }
+}

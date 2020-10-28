@@ -1,10 +1,18 @@
-@import "./styles/base";
-@import "./styles/common/*.scss";
+@import "./settings/*.scss";
+@import "./styles/breakpoints/base";
 
-@media (max-width: 414px) {
-    @import "./styles/section/mobile/*.scss";
+/*
+414px以下で読み込み
+*/
+@import "./styles/breakpoints/414up/common/*.scss";
+@import "./styles/breakpoints/414up/section/*.scss";
+
+/*
+1024px以下で読み込み
+*/
+@media (min-width: 1024px) {
+    @import "./styles/breakpoints/1024up/common/*.scss";
+    @import "./styles/breakpoints/1024up/section/*.scss";
 }
 
-@media (max-width: 1024px) {
-    @import "./styles/section/desktop/*.scss";
-}
+

@@ -1,0 +1,104 @@
+.plan {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: lighter;
+
+
+    .section-title {
+        @include section-title;
+        margin-top: 40px;
+    }
+    
+    li {
+        margin-bottom: 24px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &-item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+        padding: 20px 0;
+        padding-left: calc(100% - 90%);
+        height: 82px;
+        border: 1px solid black;
+        transition: all 0.3s;
+    }
+
+    &-item::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -2%;
+        transform: translateY(-50%);
+        background-color: #fff;
+        width: 105%;
+        height: calc(100% - 40px);
+    }
+
+    &-item::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+        height: 105%;
+        width: calc(100% - 40px);
+    }
+
+    &-item:last-child {
+        margin-bottom: 0;
+    }
+
+    &-item:hover {
+        cursor: pointer;
+    }
+
+    &-item__left {
+        z-index: 1;
+        margin-right: 16px;
+
+        span.icon-color {
+            font-size: 24px;
+            color: $cBlue;
+            margin-left: 5px;
+        }
+        span.couple-color {
+            font-size: 24px;
+            color: $cPink;
+            margin-left: 5px;
+        }
+        span.wedding-color {
+            font-size: 24px;
+            color: $cGreen;
+            margin-left: 5px;
+        }
+    }
+
+    &-item__right {
+        z-index: 1;
+    }
+
+    &-item__right-text {
+        font-size: 14px;
+    }
+
+    &-item__right-planName {
+        span.icon-color {
+            font-size: 20px;
+            color: $cBlue;
+        }
+        span.couple-color {
+            font-size: 20px;
+            color: $cPink;
+        }
+        span.wedding-color {
+            font-size: 20px;
+            color: $cGreen;
+        }
+    }
+}
