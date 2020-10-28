@@ -12,10 +12,16 @@ body {
     color: $cBlack;
 }
 
+
 .sp-none {
     display: none;
 }
 
+@import "./common/header";
 @import "./section/firstView";
 @import "./section/plan";
 @import "./section/planDetail";
+@import "./section/selfIntro";
+@import "./section/price";
+@import "./section/form";
+@import "./common/footer";

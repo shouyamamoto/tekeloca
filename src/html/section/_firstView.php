@@ -1,4 +1,4 @@
-<section class="fv">
+<section class="fv" id="top">
     <div class="fv-container fv-bgImg">
         <p class="fv-text">WOULD YOU LIKE <br>TO LEAVE A<br>NICE PHOTO</p>
     </div>
