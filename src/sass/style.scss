@@ -1,18 +1,25 @@
-@import "./settings/*.scss";
+/*
+変数と共通のスタイル
+*/
+@import "./settings/**";
 @import "./styles/breakpoints/base";
 
 /*
-414px以下で読み込み
+ベース
 */
-@import "./styles/breakpoints/414up/common/*.scss";
-@import "./styles/breakpoints/414up/section/*.scss";
+@import "./styles/breakpoints/414up/**/**";
+
+/*
+768px以下読み込み
+*/
+@media (min-width: 768px) {
+    @import "./styles/breakpoints/768up/**/**";
+}
 
 /*
 1024px以下で読み込み
 */
 @media (min-width: 1024px) {
-    @import "./styles/breakpoints/1024up/common/*.scss";
-    @import "./styles/breakpoints/1024up/section/*.scss";
+    @import "./styles/breakpoints/1024up/**/**";
 }
-
 
