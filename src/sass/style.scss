@@ -23,3 +23,9 @@
     @import "./styles/breakpoints/1024up/**/**";
 }
 
+/*
+1440px以下で読み込み
+*/
+@media (min-width: 1440px) {
+    @import "./styles/breakpoints/1440up/**/**";
+}

@@ -1,0 +1,27 @@
+.selfIntro {
+    max-width: 800px;
+    margin-top: 240px;
+
+    &-inner {
+        &__top {
+            width: 60%;
+        }
+        
+        &__top .mePic {
+            width: 200px;
+            height: 200px;
+        }
+
+        &__top .place {
+            font-size: 20px;
+        }
+
+        &__bottom {
+            width: 90%;
+        }
+
+        &__bottom-text {
+            font-size: 18px;
+        }
+    }
+}

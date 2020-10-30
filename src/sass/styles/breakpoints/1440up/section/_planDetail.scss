@@ -3,31 +3,30 @@
 
     &-container {
         width: 90%;
-        margin: 0 auto;
-        margin-top: 160px;
+        max-width: 1140px;
     }
 
     .plan02,
     .plan03 {
-        margin-top: 160px;
+        margin-top: 240px;
     }
 
     &-photo-small {
         .imgSmall {
-            width: 220px;
-            max-width: 220px;
-            height: 220px;
+            width: 280px;
+            max-width: 280px;
+            height: 280px;
         }
     }
 
     &-text {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 2;
     }
 
     .imgBig {
-        max-width: 440px;
-        height: 440px;
+        max-width: 480px;
+        height: 480px;
     }
 
     &-step {
@@ -35,6 +34,10 @@
             height: auto;
             width: 100%;
         }
+    }
+
+    .btn-container {
+        max-width: 700px;
     }
 
 }

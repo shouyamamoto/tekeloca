@@ -1,60 +1,37 @@
 .selfIntro {
     width: 90%;
+    max-width: 600px;
     margin: 0 auto;
     margin-top: 120px;
 
-    &-container {
-        .section-title {
-            @include section-title;
-            margin-top: 40px;
-        }
-    }
-
     &-inner {
         background-color: $cGray;
-        padding: 24px 18px;
+        padding: 60px 18px;
 
         &__top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 80%;
-            margin: 0 auto;
+            width: 65%;
         }
         
         &__top .mePic {
-            width: 88px;
-            height: 88px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
-
-        &__top .name {
-            font-weight: bold;
-        }
-
-        &__top .insta-icon {
-            width: 27px;
-            height: 27px;
-            margin-left: 16px;
-        }
-
-        &__top .insta-icon:hover {
-            cursor: pointer;
+            width: 160px;
+            height: 160px;
         }
 
         &__top .place {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         &__bottom {
-            width: 90%;
-            margin: 0 auto;
-            margin-top: 24px;
+            width: 80%;
         }
 
         &__bottom-text {
-            font-size: 12px;
+            font-size: 16px;
+
+            a {
+                margin-left: 20px;
+            }
+            
         }
     }
 }

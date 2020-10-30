@@ -55,6 +55,10 @@
 
         &__bottom-text {
             font-size: 12px;
+
+            a {
+                text-decoration: underline;
+            }
         }
     }
 }

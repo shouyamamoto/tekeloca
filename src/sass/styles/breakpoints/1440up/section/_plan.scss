@@ -1,0 +1,19 @@
+.plan {
+    max-width: 1140px;
+
+    &-item {
+        width: 320px;
+    }
+
+    &-item__left {
+        z-index: 1;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    &-item__right {
+        z-index: 1;
+        text-align: center;
+        font-size: 20px;
+    }
+}

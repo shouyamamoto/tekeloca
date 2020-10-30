@@ -102,4 +102,8 @@
     .pc-nav-list span.menu-open::after {
         transform: rotate(0deg);
     }   
+
+    .cv-btn button:hover {
+        opacity: 0.8;
+    }
 }

@@ -5,7 +5,7 @@
             <ul class="form-items">
                 <li class="form-item">
                     <label for="name"><span class="need">必須</span>お名前</label>
-                    <input type="text" id="name" name="name" placeholder="例) 山本　花子" value="お名前" required>
+                    <input type="text" id="name" name="name" placeholder="例) 山本 花子" required>
                 </li>
 
                 <li class="form-item">
