@@ -1,104 +1,46 @@
 .plan {
     width: 90%;
-    margin: 0 auto;
-    font-weight: lighter;
+    max-width: 1024px;
 
-
-    .section-title {
-        @include section-title;
-        margin-top: 40px;
-    }
-    
-    li {
-        margin-bottom: 24px;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
+    &-items {
+        display: flex;
+        justify-content: space-between;
     }
 
     &-item {
-        position: relative;
+        padding: 0 40px;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-bottom: 32px;
-        padding: 20px 0;
-        padding-left: calc(100% - 90%);
-        height: 82px;
-        border: 1px solid black;
-        transition: all 0.3s;
-    }
-
-    &-item::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: -2%;
-        transform: translateY(-50%);
-        background-color: #fff;
-        width: 105%;
-        height: calc(100% - 40px);
+        height: 140px;
+        width: 290px;
     }
 
     &-item::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #fff;
-        height: 105%;
-        width: calc(100% - 40px);
-    }
-
-    &-item:last-child {
-        margin-bottom: 0;
-    }
-
-    &-item:hover {
-        cursor: pointer;
+        top: -2%;
+        height: 104%;
     }
 
     &-item__left {
         z-index: 1;
-        margin-right: 16px;
+        margin: 0;
 
         span.icon-color {
-            font-size: 20px;
-            color: $cBlue;
+            font-size: 40px;
             margin-left: 5px;
         }
         span.couple-color {
-            font-size: 20px;
-            color: $cPink;
+            font-size: 40px;
             margin-left: 5px;
         }
         span.wedding-color {
-            font-size: 20px;
-            color: $cGreen;
+            font-size: 40px;
             margin-left: 5px;
         }
     }
 
     &-item__right {
         z-index: 1;
-    }
-
-    &-item__right-text {
-        font-size: 14px;
-    }
-
-    &-item__right-planName {
-        span.icon-color {
-            font-size: 20px;
-            color: $cBlue;
-        }
-        span.couple-color {
-            font-size: 20px;
-            color: $cPink;
-        }
-        span.wedding-color {
-            font-size: 20px;
-            color: $cGreen;
-        }
+        text-align: center;
     }
 }

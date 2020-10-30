@@ -109,7 +109,7 @@
     <div id="plan03" class="planDetail-container plan03">
         <div class="planDetail-main">
             <div class="planDetail-mainText">
-                <div class="planDetail-num-container plan03">
+                <div class="planDetail-num-container">
                     <span class="line__green"></span>
                     <p class="planDetail-num">plan<span class="green">03</span></p>
                     <span class="line__green"></span>
