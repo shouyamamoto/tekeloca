@@ -13,6 +13,14 @@
             font-size: 14px;
         }
     }
+
+    .sp-nav.menu-open {
+        .sp-nav-inner {
+            z-index: 9999;
+            transform: translateX(50%);
+        }
+
+    }
 }
 
 
