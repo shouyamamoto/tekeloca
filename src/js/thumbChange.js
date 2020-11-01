@@ -13,7 +13,7 @@ iconThumbs.forEach(function (item, index) {
         for(let i = 0; i< iconThumbs.length; i++) {
             document.querySelectorAll('.js-icon-img')[i].src = this.dataset.image;
         }
-    };
+    };    
 });
 
 /*

@@ -17,7 +17,6 @@ for(let i = 0; i < spMenuList.length; i++) {
 const navPlan = document.querySelector('.js-nav-plan');
 const navItems = document.querySelector('.pc-nav-plan-items');
 const navPlus = document.querySelector('.pc-nav-list span');
-console.log(navPlus);
 navPlan.addEventListener('click', () => {
     navItems.classList.toggle('menu-open');
     navPlus.classList.toggle('menu-open');
