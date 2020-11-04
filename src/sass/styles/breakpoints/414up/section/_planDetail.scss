@@ -96,6 +96,7 @@
         text-align: center;
     }
 
+    
     &-photo-small {
         display: flex;
         overflow: scroll;
@@ -111,7 +112,6 @@
             opacity: 0.5;
             transition: all 0.3s;
         }
-
         .imgSmall:hover {
             cursor: pointer;
             opacity: 1;

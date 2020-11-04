@@ -7,31 +7,31 @@
     &-inner {
         background-color: $cGray;
         padding: 60px 18px;
+    }
 
-        &__top {
-            width: 65%;
+    &-inner__top {
+        width: 65%;
+    }
+    
+    &-inner__top .mePic {
+        width: 160px;
+        height: 160px;
+    }
+
+    &-inner__top .place {
+        font-size: 16px;
+    }
+
+    &-inner__bottom {
+        width: 80%;
+    }
+
+    &-inner__bottom-text {
+        font-size: 16px;
+
+        a {
+            margin-left: 20px;
         }
         
-        &__top .mePic {
-            width: 160px;
-            height: 160px;
-        }
-
-        &__top .place {
-            font-size: 16px;
-        }
-
-        &__bottom {
-            width: 80%;
-        }
-
-        &__bottom-text {
-            font-size: 16px;
-
-            a {
-                margin-left: 20px;
-            }
-            
-        }
     }
 }

@@ -13,52 +13,52 @@
     &-inner {
         background-color: $cGray;
         padding: 24px 18px;
+    }
 
-        &__top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 80%;
-            margin: 0 auto;
-        }
-        
-        &__top .mePic {
-            width: 88px;
-            height: 88px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
+    &-inner__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    &-inner__top .mePic {
+        width: 88px;
+        height: 88px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
 
-        &__top .name {
-            font-weight: bold;
-        }
+    &-inner__top .name {
+        font-weight: bold;
+    }
 
-        &__top .insta-icon {
-            width: 27px;
-            height: 27px;
-            margin-left: 16px;
-        }
+    &-inner__top .insta-icon {
+        width: 27px;
+        height: 27px;
+        margin-left: 16px;
+    }
 
-        &__top .insta-icon:hover {
-            cursor: pointer;
-        }
+    &-inner__top .insta-icon:hover {
+        cursor: pointer;
+    }
 
-        &__top .place {
-            font-size: 14px;
-        }
+    &-inner__top .place {
+        font-size: 14px;
+    }
 
-        &__bottom {
-            width: 90%;
-            margin: 0 auto;
-            margin-top: 24px;
-        }
+    &-inner__bottom {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
 
-        &__bottom-text {
-            font-size: 12px;
+    &-inner__bottom-text {
+        font-size: 12px;
 
-            a {
-                text-decoration: underline;
-            }
+        a {
+            text-decoration: underline;
         }
     }
 }

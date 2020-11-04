@@ -7,37 +7,30 @@
 /*
 アイコン撮影プラン
 */
-var iconThumbs = document.querySelectorAll('.icon-img');
-iconThumbs.forEach(function (item, index) {
-    item.onclick = function () {
-        for(let i = 0; i< iconThumbs.length; i++) {
-            document.querySelectorAll('.js-icon-img')[i].src = this.dataset.image;
-        }
-    };    
-});
+const iconThumbs = document.querySelectorAll('.icon-img');
+iconThumbs.forEach((iconThumb, index) => {
+    iconThumb.addEventListener('click', ()=> {
+        document.querySelector('.js-icon-img').src = iconThumb.dataset.image;
+    });
+})
 
 /*
 カップル撮影プラン
 */
 const coupleThumbs = document.querySelectorAll('.couple-img');
-coupleThumbs.forEach(function(item, index) {
-    item.onclick = function () {
-        for(let i = 0; i< iconThumbs.length; i++) {
-            document.querySelectorAll('.js-couple-img')[i].src = this.dataset.image;
-        }
-    };
+coupleThumbs.forEach((coupleThumb, index) => {
+    coupleThumb.addEventListener('click', ()=> {
+        document.querySelector('.js-couple-img').src = coupleThumb.dataset.image;
+    });
 })
 
 /*
 結婚式撮影プラン
 */
 const weddingThumbs = document.querySelectorAll('.wedding-img');
-weddingThumbs.forEach(function(item, index) {
-    item.onclick = function () {
-        for(let i = 0; i< iconThumbs.length; i++) {
-            document.querySelectorAll('.js-wedding-img')[i].src = this.dataset.image;
-        }
-    };
+weddingThumbs.forEach((weddingThumb, index) => {
+    weddingThumb.addEventListener('click', ()=> {
+        document.querySelector('.js-wedding-img').src = weddingThumb.dataset.image;
+    });
 })
-
 

@@ -2,26 +2,24 @@
     max-width: 800px;
     margin-top: 240px;
 
-    &-inner {
-        &__top {
-            width: 60%;
-        }
-        
-        &__top .mePic {
-            width: 200px;
-            height: 200px;
-        }
+    &-inner__top {
+        width: 60%;
+    }
+    
+    &-inner__top .mePic {
+        width: 200px;
+        height: 200px;
+    }
 
-        &__top .place {
-            font-size: 20px;
-        }
+    &-inner__top .place {
+        font-size: 20px;
+    }
 
-        &__bottom {
-            width: 90%;
-        }
+    &-inner__bottom {
+        width: 90%;
+    }
 
-        &__bottom-text {
-            font-size: 18px;
-        }
+    &-inner__bottom-text {
+        font-size: 18px;
     }
 }
