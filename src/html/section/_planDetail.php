@@ -20,18 +20,18 @@
             </div>
             
             <div class="planDetail-mainPhoto sp-none tb-done">
-                <img src="/tekeloca/dist/images/icon_01.jpg" class="imgBig js-icon-img">
+                <img src="/tekeloca/dist/images/icon_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-icon-img">
             </div>
         </div>
 
         <div class="planDetail-photo">
-            <img src="/tekeloca/dist/images/icon_01.jpg" class="imgBig js-icon-img tb-none">
+            <img src="/tekeloca/dist/images/icon_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-icon-img tb-none">
 
             <ul class="planDetail-photo-small">
-                <li><img src="/tekeloca/dist/images/icon_01.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_01.jpg"></li>
-                <li><img src="/tekeloca/dist/images/icon_02.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_02.jpg"></li>
-                <li><img src="/tekeloca/dist/images/icon_03.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_03.jpg"></li>
-                <li><img src="/tekeloca/dist/images/icon_04.jpg" class="imgSmall icon-img" data-image="/tekeloca/dist/images/icon_04.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_01.jpg" class="imgSmall icon-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/icon_01.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_02.jpg" class="imgSmall icon-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/icon_02.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_03.jpg" class="imgSmall icon-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/icon_03.jpg"></li>
+                <li><img src="/tekeloca/dist/images/icon_04.jpg" class="imgSmall icon-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/icon_04.jpg"></li>
             </ul>
         
         </div>
@@ -73,18 +73,18 @@
             </div>
             
             <div class="planDetail-mainPhoto sp-none tb-done">
-                <img src="/tekeloca/dist/images/couple_01.jpg" class="imgBig js-couple-img">
+                <img src="/tekeloca/dist/images/couple_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-couple-img">
             </div>
         </div>
 
         <div class="planDetail-photo">
-            <img src="/tekeloca/dist/images/couple_01.jpg" class="imgBig js-couple-img tb-none">
+            <img src="/tekeloca/dist/images/couple_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-couple-img tb-none">
 
             <ul class="planDetail-photo-small">
-                <li><img src="/tekeloca/dist/images/couple_01.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_01.jpg"></li>
-                <li><img src="/tekeloca/dist/images/couple_02.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_02.jpg"></li>
-                <li><img src="/tekeloca/dist/images/couple_03.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_03.jpg"></li>
-                <li><img src="/tekeloca/dist/images/couple_04.jpg" class="imgSmall couple-img" data-image="/tekeloca/dist/images/couple_04.jpg"></li>
+                <li><img src="/tekeloca/dist/images/couple_01.jpg" class="imgSmall couple-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/couple_01.jpg"></li>
+                <li><img src="/tekeloca/dist/images/couple_02.jpg" class="imgSmall couple-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/couple_02.jpg"></li>
+                <li><img src="/tekeloca/dist/images/couple_03.jpg" class="imgSmall couple-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/couple_03.jpg"></li>
+                <li><img src="/tekeloca/dist/images/couple_04.jpg" class="imgSmall couple-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/couple_04.jpg"></li>
             </ul>
         
         </div>
@@ -127,18 +127,18 @@
             </div>
             
             <div class="planDetail-mainPhoto sp-none tb-done">
-                <img src="/tekeloca/dist/images/wedding_01.jpg" class="imgBig js-wedding-img">
+                <img src="/tekeloca/dist/images/wedding_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-wedding-img">
             </div>
         </div>
             
         <div class="planDetail-photo">
-            <img src="/tekeloca/dist/images/wedding_01.jpg" class="imgBig js-wedding-img tb-none">
+            <img src="/tekeloca/dist/images/wedding_01.jpg" width="300px" height="300px" alt="撮影プランのイメージです。" class="imgBig js-wedding-img tb-none">
 
             <ul class="planDetail-photo-small">
-                <li><img src="/tekeloca/dist/images/wedding_01.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_01.jpg"></li>
-                <li><img src="/tekeloca/dist/images/wedding_02.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_02.jpg"></li>
-                <li><img src="/tekeloca/dist/images/wedding_03.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_03.jpg"></li>
-                <li><img src="/tekeloca/dist/images/wedding_04.jpg" class="imgSmall wedding-img" data-image="/tekeloca/dist/images/wedding_04.jpg"></li>
+                <li><img src="/tekeloca/dist/images/wedding_01.jpg" class="imgSmall wedding-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/wedding_01.jpg"></li>
+                <li><img src="/tekeloca/dist/images/wedding_02.jpg" class="imgSmall wedding-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/wedding_02.jpg"></li>
+                <li><img src="/tekeloca/dist/images/wedding_03.jpg" class="imgSmall wedding-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/wedding_03.jpg"></li>
+                <li><img src="/tekeloca/dist/images/wedding_04.jpg" class="imgSmall wedding-img" alt="撮影プランのサムネイルです" width="200px" height="200px" data-image="/tekeloca/dist/images/wedding_04.jpg"></li>
             </ul>
         
         </div>
