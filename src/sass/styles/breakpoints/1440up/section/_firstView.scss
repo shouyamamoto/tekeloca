@@ -1,0 +1,26 @@
+.fv {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &-bgImg {
+        height: 680px;
+        width: 60vw;
+    }
+
+    &-text {
+        display: none;
+    }
+
+    &-pc-text {
+        top: 45%;
+        left: 10%;
+        font-size: 54px;
+    }
+
+    &-caption {
+        left: 10%;
+        width: 400px;
+        font-size: 18px;
+    }
+}

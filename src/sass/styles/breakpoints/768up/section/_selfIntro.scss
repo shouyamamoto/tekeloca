@@ -1,0 +1,30 @@
+.selfIntro {
+    width: 60%;
+
+    &-inner {
+        &__top {
+            width: 75%;
+        }
+        
+        &__top .mePic {
+            width: 120px;
+            height: 120px;
+        }
+
+        &__top .name {
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: normal;
+            margin-bottom: 16px;
+        }
+
+        &__top .insta-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        &__bottom-text {
+            font-size: 14px;
+        }
+    }
+}

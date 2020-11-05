@@ -1,0 +1,64 @@
+.selfIntro {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    &-container {
+        .section-title {
+            @include section-title;
+            margin-top: 40px;
+        }
+    }
+
+    &-inner {
+        background-color: $cGray;
+        padding: 24px 18px;
+    }
+
+    &-inner__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    &-inner__top .mePic {
+        width: 88px;
+        height: 88px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    &-inner__top .name {
+        font-weight: bold;
+    }
+
+    &-inner__top .insta-icon {
+        width: 27px;
+        height: 27px;
+        margin-left: 16px;
+    }
+
+    &-inner__top .insta-icon:hover {
+        cursor: pointer;
+    }
+
+    &-inner__top .place {
+        font-size: 14px;
+    }
+
+    &-inner__bottom {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    &-inner__bottom-text {
+        font-size: 12px;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

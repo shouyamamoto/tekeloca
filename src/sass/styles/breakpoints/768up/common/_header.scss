@@ -1,0 +1,26 @@
+.header {
+    .sp-nav-inner {
+        &__lists {
+            margin: 120px 20px 40px 80px;
+        }
+
+        &__bottom {
+            margin: 20px 20px 20px 80px;
+        }
+        &__back {
+            text-decoration: underline;
+            color: $cBlack;
+            font-size: 14px;
+        }
+    }
+
+    .sp-nav.menu-open {
+        .sp-nav-inner {
+            z-index: 9999;
+            transform: translateX(50%);
+        }
+
+    }
+}
+
+

@@ -15,7 +15,7 @@ for (let i = 0; i < smoothscrollTrigger.length; i++) {
 
         const rect = targetElement.getBoundingClientRect().top; //ブラウザからの高さを取得
         const offset = window.pageYOffset; //現在のスクロール量を計測
-        const gap = 60; //ヘッダーの高さ
+        const gap = 100; //ヘッダーの高さ
         const target = rect + offset - gap;
 
         window.scrollTo({

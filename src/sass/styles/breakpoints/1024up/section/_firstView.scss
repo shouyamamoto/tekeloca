@@ -1,0 +1,38 @@
+.fv {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &-bgImg {
+        height: 540px;
+        width: 70vw;
+        background-image: url("/tekeloca/dist/images/fv.jpg");
+        background-size: cover;
+        background-position: center center;
+        order: 2;
+    }
+
+    &-text {
+        display: none;
+    }
+
+    &-pc-text {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        font-size: 40px;
+        z-index: 1000;
+    }
+
+    &-caption {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        width: 250px;
+        font-style: 20px;
+        text-align: left;
+        line-height: 2.2;
+    }
+}

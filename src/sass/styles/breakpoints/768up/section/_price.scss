@@ -1,0 +1,28 @@
+.price {
+    width: 90%;
+    &-container {
+        .section-title {
+            @include section-title;
+            margin-top: 40px;
+        }
+    }
+
+    &-container__detail {
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &-label.blue {
+            padding: 20px 60px; 
+        }
+        &-label.pink {
+            padding: 20px 60px; 
+        }
+        &-label.green {
+            padding: 20px 60px; 
+        }
+
+        &-inner {
+            padding: 0 0 0 60px;
+        }
+    }
+}

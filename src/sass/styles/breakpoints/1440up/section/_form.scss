@@ -1,0 +1,24 @@
+.form {
+    width: 90%;
+    max-width: 800px;
+
+    &-item__plan {
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 30px;
+
+        // 既存のラジオボタンを非表示
+        & > input[type=radio] {
+            display: none;
+        }
+
+        & > label {
+            position: relative;
+            display: block;
+            padding: 14px 0 14px 20px;
+            top: 50%;
+            left: 20%;
+            width: 80%;
+        }
+    }
+}

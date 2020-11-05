@@ -35,10 +35,10 @@ const { src, dest, watch } = require('gulp');
 
 // sassコンパイル
 const cssTask = () => {
-    return src('./src/sass/*.scss', {sourcemaps: true})
+    return src('./src/sass/**/**', {sourcemaps: true})
+        .pipe(sassGlob())       
         .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
-        .pipe(sassGlob())
-        .pipe(autoprefixer())
+        .pipe(autoprefixer({cascade:false}))
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(dest('dist/css/', {sourcemaps: true}))
 }
@@ -78,8 +78,8 @@ const htmlTask = () => {
 }
 
 const keiryoWatch = () => {
-    watch('./src/sass/*.scss', cssTask)
-    watch('./src/js/*.js', jsTask)
+    watch('./src/sass/**', cssTask)
+    watch('./src/js/**', jsTask)
     watch('./src/images/**', imgTask)
     watch('./src/html/**', htmlTask)
 }

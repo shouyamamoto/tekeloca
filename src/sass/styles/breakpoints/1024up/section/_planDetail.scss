@@ -1,0 +1,40 @@
+.planDetail {
+    margin-top: 160px;
+
+    &-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 160px;
+    }
+
+    .plan02,
+    .plan03 {
+        margin-top: 160px;
+    }
+
+    &-photo-small {
+        .imgSmall {
+            width: 220px;
+            max-width: 220px;
+            height: 220px;
+        }
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    .imgBig {
+        max-width: 440px;
+        height: 440px;
+    }
+
+    &-step {
+        .imgStep {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+}
